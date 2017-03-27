@@ -1,5 +1,8 @@
 package biz.aeffegroup.activitylifecycleexample;
 
+import android.content.Intent;
+
+import org.junit.Rule;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,6 +15,11 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
+
+
+        MainActivity activity = new MainActivity();
+
+        activity.startActivity(new Intent());
         assertEquals(4, 2 + 2);
     }
 }
