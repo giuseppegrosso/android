@@ -1,0 +1,17 @@
+installazione npm
+installazione cordova
+
+riferimenti https://cordova.apache.org/docs/en/latest/guide/cli/index.html
+
+-- creazione del progetto hello con package com.example.hello activity HelloWorld
+cordova create hello com.example.hello HelloWorld
+cd hello
+
+cordova platform add android --save
+
+
+installazione ionic per template.
+
+npm install -g cordova ionic
+
+ionic start myAppIonic tabs --v2
