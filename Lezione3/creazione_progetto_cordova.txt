@@ -1,0 +1,31 @@
+creazione del progetto ActivityLifeCycleCordova -- https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html#testing-the-activity-lifecycle
+
+-- creo il progetto lifeCycle con package biz.aeffegroup e ActivityLifeCycleCordova.
+0. cordova create lifeCycle biz.aeffegroup ActivityLifeCycleCordova
+
+1. cd lifeCycle
+
+cordova platform add android --save
+
+2. build the app
+
+cordova build
+
+oppure opzionale
+
+cordova build android
+
+
+3. add plugin
+
+cordova 
+
+4. lista dei plugin del progetto 
+cordova plugins ls
+
+5. lista dei plugins per camera
+cordova plugins search camera
+
+
+6. aggiungo il plugin per la gestione fotocamera.
+cordova plugin add cordova-plugin-camera
